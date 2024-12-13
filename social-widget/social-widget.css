@@ -16,3 +16,32 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+/* Styling */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1920px;
+	height: 1080px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+/* fonts */
+
+.poppins-medium {
+	font-family: "Poppins", serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.frame {
+	width: 490px;
+	height: 290px;
+}
