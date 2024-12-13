@@ -4,6 +4,7 @@
 	--main-color-3: #f7bfd8;
 	--main-color-4: #fbd5e5;
 	--main-color-5: #fdeaf2;
+	--main-font: #723954;
 	--main-white: white;
 	--main-black: black;
 }
@@ -15,6 +16,10 @@ body {
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+#social-widget-frame {
+	margin-top: 290px;
 }
 
 /* Styling */
@@ -39,9 +44,24 @@ body {
 	font-family: "Poppins", serif;
 	font-weight: 500;
 	font-style: normal;
+	font-size: 34px;
+	line-height: 40px;
 }
 
-.frame {
+/* main */
+
+#social-widget-frame {
 	width: 490px;
-	height: 290px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(
+		to left,
+		var(--main-color-3),
+		var(--main-color-4),
+		var(--main-color-5)
+	);
+	border-radius: 15px;
+	color: var(--main-font);
 }
