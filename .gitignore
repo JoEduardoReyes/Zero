@@ -160,4 +160,10 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,webstorm,git,remix+netlify,sass
 
 *.png
+*.webp
+*.gif
 */development
+/development
+*/assets/images
+/assets/images/
+/assets/images/*

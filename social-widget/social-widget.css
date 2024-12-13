@@ -4,6 +4,7 @@
 	--main-color-3: #f7bfd8;
 	--main-color-4: #fbd5e5;
 	--main-color-5: #fdeaf2;
+	--main-font: #723954;
 	--main-white: white;
 	--main-black: black;
 }
@@ -15,4 +16,65 @@ body {
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+#social-widget-frame {
+	margin-top: 290px;
+}
+
+/* Styling */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1920px;
+	height: 1080px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+/* fonts */
+
+.poppins-medium {
+	font-family: "Poppins", serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 34px;
+	line-height: 40px;
+}
+
+/* main */
+
+#social-widget-frame {
+	width: 490px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(
+		to left,
+		var(--main-color-3),
+		var(--main-color-4),
+		var(--main-color-5)
+	);
+	border-radius: 15px;
+	color: var(--main-font);
+	position: relative;
+	overflow: hidden;
+}
+
+#social-widget-frame #social {
+	z-index: 10;
+}
+
+#social-widget-frame #cherry-background {
+	position: absolute;
+	width: 100%;
+	opacity: 0.4;
+	transform: scaleX(-1);
 }
