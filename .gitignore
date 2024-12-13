@@ -161,6 +161,7 @@ fabric.properties
 
 *.png
 *.webp
+*.gif
 */development
 /development
 */assets/images

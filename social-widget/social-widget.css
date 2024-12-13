@@ -64,4 +64,17 @@ body {
 	);
 	border-radius: 15px;
 	color: var(--main-font);
+	position: relative;
+	overflow: hidden;
+}
+
+#social-widget-frame #social {
+	z-index: 10;
+}
+
+#social-widget-frame #cherry-background {
+	position: absolute;
+	width: 100%;
+	opacity: 0.4;
+	transform: scaleX(-1);
 }
