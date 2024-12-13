@@ -7,3 +7,12 @@
 	--main-white: white;
 	--main-black: black;
 }
+
+/* Development */
+
+body {
+	background-image: url(https://i.ibb.co/qJ8YCzp/image.png);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
