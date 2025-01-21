@@ -4,7 +4,7 @@ const socialIconElement = document.getElementById("social-icon");
 
 const socialProfiles = [
 	{ name: "zeriito_", icon: "fa-instagram", class: "instagram" },
-	{ name: "@Zerit0002", icon: "fa-x-twitter", class: "x-twitter" },
+	{ name: "@zeriito02", icon: "fa-x-twitter", class: "x-twitter" },
 	{ name: "zerito_02", icon: "fa-twitch", class: "twitch" },
 ];
 
